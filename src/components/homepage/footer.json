@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Links": {
+      "type": "json"
+    }
+  }
+}

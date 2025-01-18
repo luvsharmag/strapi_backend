@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "SocialMediaLinks": {
+      "type": "json"
+    },
+    "nothing": {
+      "type": "string"
+    }
+  }
+}

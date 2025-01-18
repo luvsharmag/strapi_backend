@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_homepage_privacies",
+  "info": {
+    "displayName": "privacy"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}

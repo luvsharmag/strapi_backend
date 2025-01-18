@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CTAButtonText": {
+      "type": "string"
+    },
+    "CTAButtonURL": {
+      "type": "string"
+    },
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutDescription": {
+      "type": "string"
+    },
+    "AboutImage": {
+      "type": "string"
+    },
+    "FeaturesTitle": {
+      "type": "string"
+    },
+    "FeaturesList": {
+      "type": "json"
+    },
+    "contact": {
+      "displayName": "Contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.contact"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.testimonial"
+    },
+    "Footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.footer"
+    },
+    "Privacy": {
+      "displayName": "privacy",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.privacy"
+    },
+    "Blog": {
+      "displayName": "Blog",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.blog"
+    },
+    "About": {
+      "displayName": "About",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.about"
+    },
+    "whatIsDaPa": {
+      "type": "blocks"
+    },
+    "websiteName": {
+      "type": "string"
+    },
+    "NavLink": {
+      "displayName": "NavLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.nav-link"
+    }
+  }
+}
